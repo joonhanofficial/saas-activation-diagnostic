@@ -2,7 +2,7 @@
 
 A subscription-level diagnostic of how activation quality shifted across source and plan segments.
 
-![Hero](https://raw.githubusercontent.com/joonhanofficial/saas-activation-diagnostic/main/images/hero.png)
+![Hero](./images/hero.png)
 
 ## Overview
 
