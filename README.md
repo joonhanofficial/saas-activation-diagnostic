@@ -2,7 +2,7 @@
 
 A subscription-level diagnostic of how activation quality shifted across source and plan segments.
 
-![Hero](./images/hero-pic.png)
+![Hero](./images/hero.png)
 
 ## Overview
 
