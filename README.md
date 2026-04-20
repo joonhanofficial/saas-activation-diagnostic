@@ -2,7 +2,7 @@
 
 A subscription-level diagnostic of how activation quality shifted across source and plan segments.
 
-![Hero](images/hero-pic.png)
+![Hero](./images/hero-pic.png)
 
 ## Overview
 
@@ -54,20 +54,20 @@ The analysis was built at the **subscription level**, not the account level, bec
 
 The workflow followed these steps:
 
-1. Loaded and inspected the raw SaaS tables in Python  
-2. Validated the join keys across account, subscription, and usage data  
-3. Converted date fields and tested time-based activation logic  
-4. Rejected unreliable timing logic after finding inconsistent sequencing  
-5. Summarized usage depth at the subscription level  
-6. Compared multiple activation threshold definitions  
-7. Locked the final activation rule  
-8. Built the final subscription-level analysis table  
-9. Exported the final table to CSV for Tableau  
-10. Built segmented views to compare activation quality by source, plan, and their interaction  
+1. Loaded and inspected the raw SaaS tables in Python
+2. Validated the join keys across account, subscription, and usage data
+3. Converted date fields and tested time-based activation logic
+4. Rejected unreliable timing logic after finding inconsistent sequencing
+5. Summarized usage depth at the subscription level
+6. Compared multiple activation threshold definitions
+7. Locked the final activation rule
+8. Built the final subscription-level analysis table
+9. Exported the final table to CSV for Tableau
+10. Built segmented views to compare activation quality by source, plan, and their interaction
 
 ### Activation threshold comparison
 
-![Activation Threshold Comparison](images/activation-threshold-comparison.png)
+![Activation Threshold Comparison](./images/activation-threshold-comparison.png)
 
 ## Key Findings
 
@@ -87,7 +87,7 @@ The most useful insight was not source alone or tier alone, but the combination.
 
 ### Referral source view
 
-![Activation Rate by Referral Source](images/activation-rate-by-referral-source.png)
+![Activation Rate by Referral Source](./images/activation-rate-by-referral-source.png)
 
 ## Dashboard Preview
 
@@ -98,7 +98,7 @@ The Tableau dashboard was built to make the segmented variation visible in one p
 - activation rate by plan tier
 - activation rate by source and plan tier
 
-![SaaS Activation Dashboard Overview](images/saas-activation-dashboard-overview.png)
+![SaaS Activation Dashboard Overview](./images/saas-activation-dashboard-overview.png)
 
 ## Tools Used
 
@@ -110,7 +110,7 @@ The Tableau dashboard was built to make the segmented variation visible in one p
 
 ## Key Outcome
 
-The value of the project was not the headline activation rate itself, but what happened once that number was broken apart. A stable-looking KPI became a much more useful diagnostic once the subscriptions were segmented by source and plan tier. Python was used to test the method, reject weak timing logic, and build the final working table, while Tableau made the variation visible in a way the average could not.
+The value of the project was not the headline activation rate itself, but what happened once that number was broken apart. A stable-looking KPI became a much more useful diagnostic once the subscriptions were segmented by source and plan tier. Python was used to test the method, reject unreliable timing logic, and build the final working table, while Tableau made the variation visible in a way the average could not.
 
 The final takeaway was simple:
 
